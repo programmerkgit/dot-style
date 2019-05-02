@@ -1,6 +1,40 @@
-@mixin btn-size($padding-y, $padding-x, $font-size, $line-height: 1, $border-radius: 0.25rem) {
+/* Sizing */
+
+@mixin ds-btn-size($padding-y, $padding-x, $font-size, $line-height: 1) {
   padding: $padding-y $padding-x !important;
   line-height: $line-height !important;
   font-size: $font-size !important;
-  border-radius: $border-radius !important;
+}
+
+/* Default Functionality */
+
+@mixin ds-btn($color-name) {
+  .ds-btn-#{$color-name} {
+    text-decoration: none !important;
+    outline: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+}
+
+/* State and color */
+
+@mixin ds-btn-color($color-name) {
+  .ds-btn-#{$color-name} {
+    color: color-yiq(color($color-name));
+    background-color: color($color-name);
+    transition: background-color $background-transition-duration $background-transition-timing-function;
+
+    &:hover, &:focus {
+      background-color: darken(color($color-name), 10%);
+    }
+
+    &.active {
+      background-color: darken(color($color-name), 10%);
+
+      &:hover, &:focus {
+        background-color: darken(color($color-name), 20%);
+      }
+    }
+  }
 }

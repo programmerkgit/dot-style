@@ -1,5 +1,16 @@
-@each $color, $value in $colors {
-  .ec-btn-#{$color} {
+/*
+  For the element which has states 'focus', 'hover', 'active
+  Default Behavior is canceled.
+  When active, hover, focused, darkened.
+  need .active
+*/
+
+@each $color-name, $color in $theme-colors {
+  @include ds-btn($color-name);
+}
+
+@each $color, $value in $theme-colors {
+  .d-btn-#{$color} {
     background-color: $value;
     color: color-yiq($value);
 
@@ -10,13 +21,13 @@
 }
 
 .d-btn-xs {
-  @include btn-size($btn-padding-y-xs, $btn-padding-x-xs, $btn-font-size-xs, $btn-line-height-xs, $btn-border-radius-xs)
+  @include btn-size($btn-padding-y-xs, $btn-padding-x-xs, $btn-font-size-xs, $btn-line-height-xs)
 }
 
 .d-btn-sm {
-  @include btn-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-line-height-sm, $btn-border-radius-sm)
+  @include btn-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-line-height-sm)
 }
 
 .d-btn-narrow {
-  @include btn-size($btn-padding-y-narrow, $btn-padding-x-narrow, $btn-font-size-narrow, $btn-line-height-narrow, $btn-border-radius-narrow)
+  @include btn-size($btn-padding-y-narrow, $btn-padding-x-narrow, $btn-font-size-narrow, $btn-line-height-narrow)
 }

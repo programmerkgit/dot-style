@@ -73,15 +73,8 @@
 }
 
 $i: 0;
-@while $i < 50 {
-  @include padding-variant($i);
-  @include margin-variant($i);
-  $i: $i + 1;
-}
-
-$i: 50;
 @while $i <= 500 {
   @include padding-variant($i);
   @include margin-variant($i);
-  $i: $i + 5
+  $i: $i + 2;
 }

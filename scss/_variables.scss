@@ -64,6 +64,10 @@ $theme-colors: map_merge((
 $font-size-xs: 0.6rem;
 $font-size-sm: 0.75rem;
 
+/* Transition time */
+$background-transition-duration: 500ms;
+$background-transition-timing-function: ease;
+$background-transition-delay: 0;
 
 /* btn */
 $btn-padding-x-xs: 0.375rem;

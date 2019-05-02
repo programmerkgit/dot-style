@@ -2,12 +2,12 @@
 @import "functions";
 @import "mixins/btn";
 @import "btn";
-@import "utils/line-height";
-@import "utils/width-height";
-@import "utils/padding-margin";
+@import "utils/sizing/line-height";
+@import "utils/sizing/box-sizing";
+@import "utils/sizing/box-pm";
 @import "utils/opacity";
-@import "utils/position_offset";
-@import "utils/font-size";
+@import "utils/sizing/position_offset";
+@import "utils/sizing/font-size";
 @import "utils/text-size";
 @import "utils/border-color";
 @import "utils/over-flow";
