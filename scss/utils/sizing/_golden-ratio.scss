@@ -9,13 +9,7 @@
 $i: 8;
 @while ($i <= 50) {
   .gr-#{$i}px {
-    $width: 100;
-    @while ($width <= 1000) {
-      @media (max-width: #{$width}px) {
-        @include golden-ratio($i, $width)
-      }
-      $width: $width + 100;
-    }
+    @include golden-ratio($i, 400)
   }
   $i: $i + 2;
 }
