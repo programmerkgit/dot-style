@@ -1,5 +1,5 @@
 $i: 0;
-@while $i <= 500 {
+@while $i <= 1000 {
   .y-#{$i}px {
     top: #{$i}px;
     bottom: #{$i}px;
@@ -25,5 +25,5 @@ $i: 0;
   .b-#{$i}px {
     bottom: #{$i}px;
   }
-  $i: $i + 1
+  $i: $i + 5
 }

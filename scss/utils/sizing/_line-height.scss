@@ -3,5 +3,5 @@ $i: 0;
   .line-height-#{$i}px {
     line-height: #{$i}px !important;
   }
-  $i: $i + 1;
+  $i: $i + 2;
 }

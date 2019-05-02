@@ -3,5 +3,5 @@ $i: 0;
   .font-size-#{$i}px {
     font-size: #{$i}px !important;
   }
-  $i: $i + 1;
+  $i: $i + 2;
 }
