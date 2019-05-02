@@ -6,7 +6,7 @@
 */
 
 @each $color-name, $color in $theme-colors {
-  @include ds-btn($color-name);
+  @include btn($color-name);
 }
 
 @each $color, $value in $theme-colors {

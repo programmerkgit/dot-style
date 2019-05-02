@@ -84,3 +84,18 @@
 
   @return mix($color-base, $color, $level * $theme-color-interval);
 }
+
+@function pow($x, $y) {
+  @if $y <= 1 {
+    @return $x
+  } @else {
+    $y2: $y - 1 ;
+    @return pow($x * $x, $y2)
+  }
+}
+
+@function goldenRatio($font-size, $width) {
+  $phi: 1.61801029102381093810;
+  $result: ($phi - (1 / (2 * $phi)) * (1 - $width / pow($font-size * $phi, 2))) * $font-size;
+  @return round($result)
+}

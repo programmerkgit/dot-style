@@ -58,7 +58,7 @@ $colors: map-merge(
 
 $theme-colors: ();
 $theme-colors: map_merge((
-        "primary": $blue
+        "primary": $black
 ), $theme-colors);
 
 $font-size-xs: 0.6rem;

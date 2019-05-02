@@ -1,6 +1,6 @@
 /* Sizing */
 
-@mixin ds-btn-size($padding-y, $padding-x, $font-size, $line-height: 1) {
+@mixin btn-size($padding-y, $padding-x, $font-size, $line-height: 1) {
   padding: $padding-y $padding-x !important;
   line-height: $line-height !important;
   font-size: $font-size !important;
@@ -8,7 +8,7 @@
 
 /* Default Functionality */
 
-@mixin ds-btn($color-name) {
+@mixin btn($color-name) {
   .ds-btn-#{$color-name} {
     text-decoration: none !important;
     outline: none;
@@ -19,7 +19,7 @@
 
 /* State and color */
 
-@mixin ds-btn-color($color-name) {
+@mixin btn-color($color-name) {
   .ds-btn-#{$color-name} {
     color: color-yiq(color($color-name));
     background-color: color($color-name);

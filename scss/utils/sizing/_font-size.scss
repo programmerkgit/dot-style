@@ -1,4 +1,4 @@
-$i: 2;
+$i: 0;
 @while ($i <= 50) {
   .font-size-#{$i}px {
     font-size: #{$i}px !important;

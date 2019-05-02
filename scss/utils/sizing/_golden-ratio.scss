@@ -1,0 +1,21 @@
+@mixin golden-ratio($font-size, $width) {
+  font-size: #{$font-size}px !important;
+  line-height: #{goldenRatio($font-size, $width)}px !important;
+  margin-top: #{$font-size}px !important;
+  margin-bottom: #{goldenRatio($font-size, $width)}px !important;
+}
+
+
+$i: 8;
+@while ($i <= 50) {
+  .gr-#{$i}px {
+    $width: 100;
+    @while ($width <= 1000) {
+      @media (max-width: #{$width}px) {
+        @include golden-ratio($i, $width)
+      }
+      $width: $width + 100;
+    }
+  }
+  $i: $i + 2;
+}
