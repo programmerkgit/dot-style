@@ -1,5 +1,5 @@
 $i: 0;
-@while $i <= 1500 {
+@while $i <= 1000 {
   .width-#{$i}px {
     width: #{$i}px !important;;
   }
@@ -18,5 +18,5 @@ $i: 0;
   .min-height-#{$i}px {
     min-height: #{$i}px !important;
   }
-  $i: $i + 10;
+  $i: $i + 5;
 }
