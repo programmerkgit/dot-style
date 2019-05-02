@@ -1,7 +1,5 @@
 node_modules
 dist
-.idea
-.firebase
-.vscode
-.sass-cache
 bootstrap
+.*
+!.gitignore

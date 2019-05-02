@@ -42,74 +42,24 @@ $grays: map-merge(
 );
 
 /* ec-colors */
+$black: black;
+$white: white;
 
-$facebook: #435996;
-$twitter: #47a1f2;
-$google: #d64b45;
-$blue: #537acb;
-$chathams-blue: #1C4587;
-
-
-$jelly-bean: #247B9B;
-$cornflower-blue: #6D9EEB;
-
-
-$light-blue: #5A81D8;
-$half-baked: #92CBC5;
-$english-red: #DB7070;
-$wrong-text: #FF8383;
-$outer-space: #353a3f;
-$emperor: #555555;
-$dark: #848a97;
-$text-grey: #636062;
-$harp: #E8F3EF;
-$panache: #F4FAF7;
-$light: #f3f5f9;
-$alabaster: #FAFAFA;
-$success: #F2FAF7;
-$alto: #DDDDDD;
-$wrong: #FFEDED;
-$iceberg: #DAEAF2;
-$white-lilac: #f6f8fc;
-$marigold-yellow: #f6ef75;
-$link-water: #CDE8F2;
-$black: #000000;
 
 $ec-colors: ();
 // stylelint-disable-next-line scss/dollar-variable-default
 $colors: map-merge(
                 (
-                        "blue": $blue,
                         "black": $black,
-                        "facebook": $facebook,
-                        "twitter": $twitter,
-                        "google": $google,
-                        "chathams-blue": $chathams-blue,
-                        "jelly-bean": $jelly-bean,
-                        "cornflower-blue": $cornflower-blue,
-                        "light-blue": $light-blue,
-                        "half-baked": $half-baked,
-                        "english-red": $english-red,
-                        "wrong-text": $wrong-text,
-                        "outer-space": $outer-space,
-                        "emperor": $emperor,
-                        "dark": $dark,
-                        "text-grey": $text-grey,
-                        "harp": $harp,
-                        "panache": $panache,
-                        "light": $light,
-                        "alabaster": $alabaster,
-                        "success": $success,
-                        "alto": $alto,
-                        "wrong": $wrong,
-                        "iceberg": $iceberg,
-                        "white-lilac": $white-lilac,
-                        "marigold-yellow": $marigold-yellow,
-                        "link-water": $link-water,
+                        "white": $white
                 ),
                 $ec-colors
 );
 
+$theme-colors: ();
+$theme-colors: map_merge((
+        "primary": $blue
+), $theme-colors);
 
 $font-size-xs: 0.6rem;
 $font-size-sm: 0.75rem;
