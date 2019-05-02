@@ -95,7 +95,7 @@
 }
 
 @function goldenRatio($font-size, $width) {
-  $phi: 1.61801029102381093810;
+  $phi: 1.6180;
   $result: ($phi - (1 / (2 * $phi)) * (1 - $width / pow($font-size * $phi, 2))) * $font-size;
   @return round($result)
 }
