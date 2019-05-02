@@ -1,0 +1,35 @@
+$header-height: 55px;
+$hooter-height: 45px;
+
+.fixed-header-container {
+  height: $header-height;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+
+.content-container {
+  width: 100%;
+  position: absolute;
+  top: $header-height;
+}
+
+.fixed-content-container {
+  height: 100vh;
+  padding-top: $header-height;
+  padding-bottom: $hooter-height;
+  overflow: hidden;
+}
+
+.side-nav-margin {
+  margin-top: $header-height;
+}
+
+.fixed-footer-container {
+  height: $hooter-height;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}

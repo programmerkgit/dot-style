@@ -1,0 +1,22 @@
+@each $color, $value in $colors {
+  .ec-btn-#{$color} {
+    background-color: $value;
+    color: color-yiq($value);
+
+    &:hover {
+      background-color: darken($value, 10%);
+    }
+  }
+}
+
+.ec-btn-xs {
+  @include btn-size($btn-padding-y-xs, $btn-padding-x-xs, $btn-font-size-xs, $btn-line-height-xs, $btn-border-radius-xs)
+}
+
+.ec-btn-sm {
+  @include btn-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-line-height-sm, $btn-border-radius-sm)
+}
+
+.ec-btn-narrow {
+  @include btn-size($btn-padding-y-narrow, $btn-padding-x-narrow, $btn-font-size-narrow, $btn-line-height-narrow, $btn-border-radius-narrow)
+}

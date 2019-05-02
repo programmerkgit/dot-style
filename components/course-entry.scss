@@ -1,0 +1,14 @@
+.course-entry-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .course-entry-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+  }
+}

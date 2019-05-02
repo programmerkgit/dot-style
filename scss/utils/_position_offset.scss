@@ -1,0 +1,89 @@
+$i: 0;
+@while $i < 50 {
+  .y-#{$i}px {
+    top: #{$i}px;
+    bottom: #{$i}px;
+  }
+
+  .x-#{$i}px {
+    left: #{$i}px;
+    bottom: #{$i}px;
+  }
+
+  .t-#{$i}px {
+    top: #{$i}px;
+  }
+
+  .r-#{$i}px {
+    right: #{$i}px;
+  }
+
+  .l-#{$i}px {
+    left: #{$i}px;
+  }
+
+  .b-#{$i}px {
+    bottom: #{$i}px;
+  }
+  $i: $i + 1
+}
+
+$i: 50;
+@while $i <= 500 {
+  .y-#{$i}px {
+    top: #{$i}px;
+    bottom: #{$i}px;
+  }
+
+  .x-#{$i}px {
+    left: #{$i}px;
+    bottom: #{$i}px;
+  }
+
+  .t-#{$i}px {
+    top: #{$i}px;
+  }
+
+  .r-#{$i}px {
+    right: #{$i}px;
+  }
+
+  .l-#{$i}px {
+    left: #{$i}px;
+  }
+
+  .b-#{$i}px {
+    bottom: #{$i}px;
+  }
+  $i: $i + 5
+}
+
+$i: 500;
+@while $i <= 1000 {
+  .y-#{$i}px {
+    top: #{$i}px;
+    bottom: #{$i}px;
+  }
+
+  .x-#{$i}px {
+    left: #{$i}px;
+    bottom: #{$i}px;
+  }
+
+  .t-#{$i}px {
+    top: #{$i}px;
+  }
+
+  .r-#{$i}px {
+    right: #{$i}px;
+  }
+
+  .l-#{$i}px {
+    left: #{$i}px;
+  }
+
+  .b-#{$i}px {
+    bottom: #{$i}px;
+  }
+  $i: $i + 10
+}

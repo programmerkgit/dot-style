@@ -1,0 +1,32 @@
+
+.mat-dialog-container {
+  background: none !important;
+  box-shadow: none !important;
+  color: $emperor;
+}
+
+.hints-container.hide-answer .char-insert, .hints-container.hide-answer .editor .original .margin-view-zones, .hints-container.hide-answer .line-insert, .hints-container.hide-answer .view-lines:not(.line-delete) {
+  display: none
+}
+
+
+::ng-deep .enter-chain {
+  scroll-behavior: smooth;
+  font-family: 'Noto Sans JP', 'メイリオ';
+  color: $emperor !important;
+}
+
+
+*:disabled {
+  cursor: not-allowed;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

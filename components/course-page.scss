@@ -1,0 +1,21 @@
+.course-side {
+  @media (min-width: 575.98px) {
+    width: 30%;
+    height: 100%;
+  }
+  @media (max-width: 575.98px) {
+    width: 100%;
+  }
+}
+
+.course-main {
+  @media (min-width: 575.98px) {
+    width: 70%;
+    height: 100%;
+  }
+  @media (max-width: 575.98px) {
+    width: 100%;
+  }
+}
+
+

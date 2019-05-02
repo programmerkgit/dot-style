@@ -1,0 +1,5 @@
+@each $color, $value in $colors {
+  .ec-border-#{$color} {
+    border-color: $value;
+  }
+}
