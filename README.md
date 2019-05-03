@@ -9,21 +9,21 @@ Several start options
 
 ## What's included
 Yet To Write
-##Bugs and feature requests
+## Bugs and feature requests
 Yet To Write
 
-#documentation
+# documentation
 
-##Get started
+## Get started
 You add css file `dot-style/dist/dot-style.css` to you project.
 
-##usage
+## usage
 
-###Box Spacing
+### Box Spacing
 You can style padding, margin.
 You can choose number from between 0 to 500, incremented step by 2.
 
-###Padding
+### Padding
 ```
 <p class="pt-30px"></p>
 <p class="pr-30px"></p>
@@ -34,7 +34,7 @@ You can choose number from between 0 to 500, incremented step by 2.
 <p class="p-30px"></p>
 ```
 
-###Margin
+### Margin
 ```
 <p class="mt-30px"></p>
 <p class="mr-30px"></p>
@@ -46,7 +46,7 @@ You can choose number from between 0 to 500, incremented step by 2.
 ```
 
 
-###Dimension
+### Dimension
 You can set `width`, `max-width`, `min-width`, `height`, `max-height`, `min-height`
 
 ```
@@ -61,7 +61,7 @@ You can set `width`, `max-width`, `min-width`, `height`, `max-height`, `min-heig
 You can choose number from between 0 to 1000, incremented step by 5.
 
 
-###Line height
+### Line height
 You can set `lien-height`
 
 ```
@@ -70,7 +70,7 @@ You can set `lien-height`
 
 You can choose number from between 0 to 100, incremented step by 2.
 
-###Positioning
+### Positioning
 You can set `top`, `right`, `bottom`, `left`
 You can choose number from between 0 to 1000, incremented step by 5.
 
@@ -83,7 +83,7 @@ You can choose number from between 0 to 1000, incremented step by 5.
 <p class="y-55px"></p>
 ```
 
-###z-index
+### z-index
 You can set `z-index`.
 you can choose number from between 1-50 and from between 2000-2050.
 
@@ -95,7 +95,7 @@ you can choose number from between 1-50 and from between 2000-2050.
 ```
 
 
-###Golden ratio of font-size, line-height and margins
+### Golden ratio of font-size, line-height and margins
 Font size and line height and text block margin has a golden ratio.
 You can set golden ratio by specifying fontsize.
 
@@ -105,11 +105,11 @@ You can set golden ratio by specifying fontsize.
 
 
 
-##Contributing
+## Contributing
 Yet To Write
-##Community
+## Community
 Yet To Write
-##My SNS Accounts
+## My SNS Accounts
 - [Twitter](https://twitter.com/cojicoj67044353)
 - [Qiita](https://qiita.com/QKiita)
 
