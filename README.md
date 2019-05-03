@@ -21,6 +21,7 @@ You add css file `dot-style/dist/dot-style.css` to you project.
 
 ### Box Spacing
 You can style padding, margin.
+
 You can choose number from between 0 to 500, incremented step by 2.
 
 ### Padding
@@ -68,11 +69,13 @@ You can set `lien-height`
 <p class="line-height-30px"></p>
 ```
 
-You can choose number from between 0 to 100, incremented step by 2.
+You can choose number from between 0 to 100, incremented by step 2.
 
 ### Positioning
-You can set `top`, `right`, `bottom`, `left`
-You can choose number from between 0 to 1000, incremented step by 5.
+You can set `top`, `right`, `bottom`, `left`. 
+
+
+You can choose number from between 0 to 1000, incremented by step 5.
 
 ```
 <p class="t-30px"></p>
@@ -85,6 +88,8 @@ You can choose number from between 0 to 1000, incremented step by 5.
 
 ### z-index
 You can set `z-index`.
+
+
 you can choose number from between 1-50 and from between 2000-2050.
 
 ```
@@ -97,6 +102,8 @@ you can choose number from between 1-50 and from between 2000-2050.
 
 ### Golden ratio of font-size, line-height and margins
 Font size and line height and text block margin has a golden ratio.
+
+
 You can set golden ratio by specifying fontsize.
 
 ```
