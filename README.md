@@ -8,18 +8,64 @@ Several start options
 - Install with [npm](https://www.npmjs.com/): `npm install dot-style`
 
 ## What's included
-dosty
-
-
+Yet To Write
 ##Bugs and feature requests
 Yet To Write
 
-##Documentation
+#documentation
+
+##Get Staretd
+You add css file `dot-style/dist/dot-style.css` to you project.
+
+
+##usage
+
+### Dimension
+You can style padding, margin with classes.
+
+####Padding
+```
+<p class="pt-30px"></p>
+<p class="pr-30px"></p>
+<p class="pb-30px"></p>
+<p class="pl-30px"></p>
+<p class="px-30px"></p>
+<p class="py-30px"></p>
+<p class="p-30px"></p>
+```
+
+####Margin
+```
+<p class="pt-30px"></p>
+<p class="pr-30px"></p>
+<p class="pb-30px"></p>
+<p class="pl-30px"></p>
+<p class="px-30px"></p>
+<p class="py-30px"></p>
+<p class="p-30px"></p>
+```
+
 
 
 ##Contributing
-##Community``
-##Creators
+Yet To Write
+##Community
+Yet To Write
+##My SNS Accounts
+- [Twitter](https://twitter.com/cojicoj67044353)
+- [Qiita](https://qiita.com/QKiita)
+
+
+
+
+
+
+
+
+
+
+
+
 ## This project uses Bootstrap code
 Here displays Licence of Boot``strap
 
