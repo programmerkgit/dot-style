@@ -3,10 +3,9 @@ Simple styling class helpers for adjusting styles.
 
 ## Quick start
 Several start options
-<ul>
-    <li>Clone the repo: <code>git clone git@github.com/dot-style.git</code></li>
-    <li>Install with [npm](https://www.npmjs.com/): <code>npm install dot-style</code></li>
-</ul>
+
+- Clone the repo: `git clone git@github.com/dot-style.git`
+- Install with [npm](https://www.npmjs.com/): `npm install dot-style`
 
 ## What's included
 dosty
