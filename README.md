@@ -19,11 +19,11 @@ You add css file `dot-style/dist/dot-style.css` to you project.
 
 ##usage
 
-### Box Spacing
+###Box Spacing
 You can style padding, margin.
 You can choose number from between 0 to 500, incremented step by 2.
 
-####Padding
+###Padding
 ```
 <p class="pt-30px"></p>
 <p class="pr-30px"></p>
@@ -34,7 +34,7 @@ You can choose number from between 0 to 500, incremented step by 2.
 <p class="p-30px"></p>
 ```
 
-####Margin
+###Margin
 ```
 <p class="mt-30px"></p>
 <p class="mr-30px"></p>
@@ -95,7 +95,7 @@ you can choose number from between 1-50 and from between 2000-2050.
 ```
 
 
-###golden-ration of font-size and line-height
+###Golden ratio of font-size, line-height and margins
 Font size and line height and text block margin has a golden ratio.
 You can set golden ratio by specifying fontsize.
 
