@@ -14,7 +14,7 @@ Yet To Write
 
 #documentation
 
-##Get Staretd
+##Get started
 You add css file `dot-style/dist/dot-style.css` to you project.
 
 ##usage
