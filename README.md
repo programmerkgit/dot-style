@@ -17,11 +17,11 @@ Yet To Write
 ##Get Staretd
 You add css file `dot-style/dist/dot-style.css` to you project.
 
-
 ##usage
 
-### Dimension
-You can style padding, margin with classes.
+### Box Spacing
+You can style padding, margin.
+You can choose number from between 0 to 500, incremented step by 2.
 
 ####Padding
 ```
@@ -36,13 +36,71 @@ You can style padding, margin with classes.
 
 ####Margin
 ```
-<p class="pt-30px"></p>
-<p class="pr-30px"></p>
-<p class="pb-30px"></p>
-<p class="pl-30px"></p>
-<p class="px-30px"></p>
-<p class="py-30px"></p>
-<p class="p-30px"></p>
+<p class="mt-30px"></p>
+<p class="mr-30px"></p>
+<p class="mb-30px"></p>
+<p class="ml-30px"></p>
+<p class="mx-30px"></p>
+<p class="my-30px"></p>
+<p class="m-30px"></p>
+```
+
+
+###Dimension
+You can set `width`, `max-width`, `min-width`, `height`, `max-height`, `min-height`
+
+```
+<p class="width-30px"></p>
+<p class="max-width-30px"></p>
+<p class="min-wdith-30px"></p>
+<p class="height-30px"></p>
+<p class="max-height-30px"></p>
+<p class="min-height-30px"></p>
+```
+
+You can choose number from between 0 to 1000, incremented step by 5.
+
+
+###Line height
+You can set `lien-height`
+
+```
+<p class="line-height-30px"></p>
+```
+
+You can choose number from between 0 to 100, incremented step by 2.
+
+###Positioning
+You can set `top`, `right`, `bottom`, `left`
+You can choose number from between 0 to 1000, incremented step by 5.
+
+```
+<p class="t-30px"></p>
+<p class="r-35px"></p>
+<p class="b-40px"></p>
+<p class="l-45px"></p>
+<p class="x-50px"></p>
+<p class="y-55px"></p>
+```
+
+###z-index
+You can set `z-index`.
+you can choose number from between 1-50 and from between 2000-2050.
+
+```
+<p class="z-index-1"></p>
+<p class="z-index-2"></p>
+<p class="z-index-2000"></p>
+<p class="z-index-2001"></p>
+```
+
+
+###golden-ration of font-size and line-height
+Font size and line height and text block margin has a golden ratio.
+You can set golden ratio by specifying fontsize.
+
+```
+<p class="gr-16px"></p> => font-size is set 16px, and correspoinding line-height, margin-top, margin-bottom are set. 
 ```
 
 
