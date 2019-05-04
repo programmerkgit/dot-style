@@ -1,0 +1,6 @@
+$property-name: opacity;
+@for $value from 0 through 10 {
+  .#{$property-name}-#{$value / 10} {
+    #{$property-name}: $value / 10 !important;
+  }
+}
