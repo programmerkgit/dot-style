@@ -7907,6 +7907,33 @@
 .font-size-50px {
   font-size: 50px !important; }
 
+.font-size-xx-small {
+  font-size: xx-small !important; }
+
+.font-size-x-small {
+  font-size: x-small !important; }
+
+.font-size-small {
+  font-size: small !important; }
+
+.font-size-large {
+  font-size: large !important; }
+
+.font-size-x-large {
+  font-size: x-large !important; }
+
+.font-size-xx-large {
+  font-size: xx-large !important; }
+
+.font-size-smaller {
+  font-size: smaller !important; }
+
+.font-size-larger {
+  font-size: larger !important; }
+
+.font-size-medium {
+  font-size: medium !important; }
+
 .gr-8px {
   font-size: 8px !important;
   line-height: 18px !important;

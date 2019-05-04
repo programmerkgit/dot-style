@@ -5,3 +5,11 @@ $i: 0;
   }
   $i: $i + 2;
 }
+
+
+$property-name: font-size;
+@each $value in (xx-small, x-small, small, large, x-large, xx-large, smaller, larger, medium) {
+  .#{$property-name}-#{$value} {
+    #{$property-name}: $value !important;
+  }
+}
