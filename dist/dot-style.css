@@ -8039,6 +8039,51 @@
   margin-top: 50px !important;
   margin-bottom: 67px !important; }
 
+.cursor-help {
+  cursor: help !important; }
+
+.cursor-wait {
+  cursor: wait !important; }
+
+.cursor-crosshair {
+  cursor: crosshair !important; }
+
+.cursor-not-allowed {
+  cursor: not-allowed !important; }
+
+.cursor-zoom-in {
+  cursor: zoom-in !important; }
+
+.cursor-zoom-out {
+  cursor: zoom-out !important; }
+
+.cursor-grab {
+  cursor: grab !important; }
+
+.cursor-pointer {
+  cursor: pointer !important; }
+
+.cursor-copy {
+  cursor: copy !important; }
+
+.list-style-none {
+  list-style: none !important; }
+
+.list-style-square {
+  list-style: square !important; }
+
+.list-style-inside {
+  list-style: inside !important; }
+
+.list-style-none {
+  list-style: none !important; }
+
+.list-style-square {
+  list-style: square !important; }
+
+.list-style-inside {
+  list-style: inside !important; }
+
 .outline-dotted {
   outline-style: dotted !important; }
 
@@ -8062,5 +8107,20 @@
 
 .outline-outset {
   outline-style: outset !important; }
+
+.white-space-pre {
+  white-space: pre !important; }
+
+.white-space-pre-wrap {
+  white-space: pre-wrap !important; }
+
+.white-space-pre-line {
+  white-space: pre-line !important; }
+
+.white-space-nowrap {
+  white-space: nowrap !important; }
+
+.white-space-normal {
+  white-space: normal !important; }
 
 /*# sourceMappingURL=dot-style.css.map */

@@ -1,0 +1,12 @@
+@each $list-style in (none, square, inside) {
+  .list-style-#{$list-style} {
+    list-style: $list-style !important;
+  }
+}
+
+$property-name: list-style;
+@each $list-style in (none, square, inside) {
+  .#{$property-name}-#{$list-style} {
+    #{$property-name}: $list-style !important;
+  }
+}
