@@ -1,18 +1,18 @@
-$property-name: over-flow;
+$property-name: overflow;
 @each $value in (hidden, scroll, auto, visible) {
   .#{$property-name}-#{$value} {
     #{$property-name}: $value !important;
   }
 }
 
-$property-name: over-flow-x;
+$property-name: overflow-x;
 @each $value in (hidden, scroll, auto, visible) {
   .#{$property-name}-#{$value} {
     #{$property-name}: $value !important;
   }
 }
 
-$property-name: over-flow-y;
+$property-name: overflow-y;
 @each $value in (hidden, scroll, auto, visible) {
   .#{$property-name}-#{$value} {
     #{$property-name}: $value !important;

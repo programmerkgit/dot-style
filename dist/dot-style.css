@@ -8141,41 +8141,41 @@
 .outline-outset {
   outline-style: outset !important; }
 
-.over-flow-hidden {
-  over-flow: hidden !important; }
+.overflow-hidden {
+  overflow: hidden !important; }
 
-.over-flow-scroll {
-  over-flow: scroll !important; }
+.overflow-scroll {
+  overflow: scroll !important; }
 
-.over-flow-auto {
-  over-flow: auto !important; }
+.overflow-auto {
+  overflow: auto !important; }
 
-.over-flow-visible {
-  over-flow: visible !important; }
+.overflow-visible {
+  overflow: visible !important; }
 
-.over-flow-x-hidden {
-  over-flow-x: hidden !important; }
+.overflow-x-hidden {
+  overflow-x: hidden !important; }
 
-.over-flow-x-scroll {
-  over-flow-x: scroll !important; }
+.overflow-x-scroll {
+  overflow-x: scroll !important; }
 
-.over-flow-x-auto {
-  over-flow-x: auto !important; }
+.overflow-x-auto {
+  overflow-x: auto !important; }
 
-.over-flow-x-visible {
-  over-flow-x: visible !important; }
+.overflow-x-visible {
+  overflow-x: visible !important; }
 
-.over-flow-y-hidden {
-  over-flow-y: hidden !important; }
+.overflow-y-hidden {
+  overflow-y: hidden !important; }
 
-.over-flow-y-scroll {
-  over-flow-y: scroll !important; }
+.overflow-y-scroll {
+  overflow-y: scroll !important; }
 
-.over-flow-y-auto {
-  over-flow-y: auto !important; }
+.overflow-y-auto {
+  overflow-y: auto !important; }
 
-.over-flow-y-visible {
-  over-flow-y: visible !important; }
+.overflow-y-visible {
+  overflow-y: visible !important; }
 
 .text-decoration-line-none {
   text-decoration-line: none !important; }
