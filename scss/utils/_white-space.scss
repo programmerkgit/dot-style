@@ -1,5 +1,6 @@
 $property-name: white-space;
-@each $value in (pre, pre-wrap, pre-line, nowrap, normal) {
+$values: (pre, pre-wrap, pre-line, nowrap, normal);
+@each $value in $values {
   .#{$property-name}-#{$value} {
     #{$property-name}: $value !important;
   }
