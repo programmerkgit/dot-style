@@ -8141,6 +8141,42 @@
 .outline-outset {
   outline-style: outset !important; }
 
+.over-flow-hidden {
+  over-flow: hidden !important; }
+
+.over-flow-scroll {
+  over-flow: scroll !important; }
+
+.over-flow-auto {
+  over-flow: auto !important; }
+
+.over-flow-visible {
+  over-flow: visible !important; }
+
+.over-flow-x-hidden {
+  over-flow-x: hidden !important; }
+
+.over-flow-x-scroll {
+  over-flow-x: scroll !important; }
+
+.over-flow-x-auto {
+  over-flow-x: auto !important; }
+
+.over-flow-x-visible {
+  over-flow-x: visible !important; }
+
+.over-flow-y-hidden {
+  over-flow-y: hidden !important; }
+
+.over-flow-y-scroll {
+  over-flow-y: scroll !important; }
+
+.over-flow-y-auto {
+  over-flow-y: auto !important; }
+
+.over-flow-y-visible {
+  over-flow-y: visible !important; }
+
 .text-decoration-line-none {
   text-decoration-line: none !important; }
 

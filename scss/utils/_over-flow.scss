@@ -1,0 +1,20 @@
+$property-name: over-flow;
+@each $value in (hidden, scroll, auto, visible) {
+  .#{$property-name}-#{$value} {
+    #{$property-name}: $value !important;
+  }
+}
+
+$property-name: over-flow-x;
+@each $value in (hidden, scroll, auto, visible) {
+  .#{$property-name}-#{$value} {
+    #{$property-name}: $value !important;
+  }
+}
+
+$property-name: over-flow-y;
+@each $value in (hidden, scroll, auto, visible) {
+  .#{$property-name}-#{$value} {
+    #{$property-name}: $value !important;
+  }
+}
