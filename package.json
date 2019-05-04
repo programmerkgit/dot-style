@@ -1,6 +1,6 @@
 {
   "name": "dot-style",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "CSS Utilities for sizing",
   "main": "index.js",
   "scripts": {
