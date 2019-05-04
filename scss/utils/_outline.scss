@@ -1,0 +1,5 @@
+@each $outline-style in (dotted, dashed, solid, double, groove, ridge, inset, outset) {
+  .outline-#{$outline-style} {
+    outline-style: $outline-style !important;
+  }
+}
