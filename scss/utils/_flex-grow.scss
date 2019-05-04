@@ -1,6 +1,4 @@
 $property-name: flex-grow;
 @for $value from 0 through 10 {
-  .#{$property-name}-#{$value} {
-    #{$property-name}: $value !important;
-  }
+  @include dot-style($property-name, $value)
 }

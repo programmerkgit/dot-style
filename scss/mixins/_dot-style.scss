@@ -1,0 +1,11 @@
+@mixin dot-styles($property-name, $values) {
+  @each $value in $values {
+    @include dot-style($property-name, $value);
+  }
+}
+
+@mixin dot-style($property-name, $value) {
+  .#{$property-name}-#{$value} {
+    #{$property-name}: $value !important;
+  }
+}

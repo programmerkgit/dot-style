@@ -2,6 +2,7 @@
 @import "functions";
 @import "mixins/btn";
 @import "btn";
+@import "mixins/dot-style";
 @import "utils/sizing/box-spacing";
 @import "utils/sizing/dimension";
 @import "utils/sizing/font-size";
@@ -14,7 +15,7 @@
 @import "utils/list_style";
 @import "utils/opacity";
 @import "utils/outline-style";
-@import "utils/over-flow";
+@import "utils/overflow";
 @import "utils/text-decoration";
 @import "utils/text-decoration-line";
 @import "utils/white-space";

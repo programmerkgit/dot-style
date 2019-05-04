@@ -1,7 +1,3 @@
 $property-name: white-space;
 $values: (pre, pre-wrap, pre-line, nowrap, normal);
-@each $value in $values {
-  .#{$property-name}-#{$value} {
-    #{$property-name}: $value !important;
-  }
-}
+@include dot-styles($property-name, $values)

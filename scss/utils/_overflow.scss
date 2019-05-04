@@ -1,0 +1,9 @@
+$property-name: overflow;
+$values: (hidden, scroll, auto, visible);
+@include dot-styles($property-name, $values);
+
+$property-name: overflow-x;
+@include dot-styles($property-name, $values);
+
+$property-name: overflow-y;
+@include dot-styles($property-name, $values);

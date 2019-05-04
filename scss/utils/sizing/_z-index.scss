@@ -1,15 +1,12 @@
-$i: 0;
-@while $i <= 50 {
-  z-index-#{$i} {
-    z-index: $i;
-  }
-  $i: $i + 1
+$property-name: z-index;
+$value: 0;
+@while $value <= 20 {
+  @include dot-style($property-name, $value);
+  $value: $value + 1
 }
 
-$i: 2000;
-@while $i <= 2050 {
-  z-index-#{$i} {
-    z-index: $i;
-  }
-  $i: $i + 1
+$value: 2000;
+@while $value <= 2020 {
+  @include dot-style($property-name, $value);
+  $value: $value + 1
 }

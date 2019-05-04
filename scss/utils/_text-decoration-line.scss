@@ -1,7 +1,3 @@
 $property-name: text-decoration-line;
 $values: (none, overline, underline, line-through);
-@each $value in $values {
-  .#{$property-name}-#{$value} {
-    #{$property-name}: $value !important;
-  }
-}
+@include dot-styles($property-name, $values)

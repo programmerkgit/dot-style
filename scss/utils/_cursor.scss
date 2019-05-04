@@ -1,7 +1,3 @@
 $property-name: cursor;
 $values: (help, wait, crosshair, not-allowed, zoom-in, zoom-out, grab, pointer, copy);
-@each $value in $values {
-  .#{$property-name}-#{$value} {
-    #{$property-name}: $value !important;
-  }
-}
+@include dot-styles($property-name, $values)
