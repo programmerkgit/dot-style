@@ -8108,6 +8108,18 @@
 .outline-outset {
   outline-style: outset !important; }
 
+.text-decoration-line-none {
+  text-decoration-line: none !important; }
+
+.text-decoration-line-overline {
+  text-decoration-line: overline !important; }
+
+.text-decoration-line-underline {
+  text-decoration-line: underline !important; }
+
+.text-decoration-line-line-through {
+  text-decoration-line: line-through !important; }
+
 .white-space-pre {
   white-space: pre !important; }
 

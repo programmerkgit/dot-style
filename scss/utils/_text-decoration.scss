@@ -1,0 +1,6 @@
+$property-name: text-decoration;
+@each $value in (none) {
+  .#{$property-name}-#{$value} {
+    #{$property-name}: $value !important;
+  }
+}
