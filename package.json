@@ -1,14 +1,16 @@
 {
   "name": "dot-style",
-  "version": "1.0.20",
+  "version": "1.0.45",
   "description": "CSS Utilities for sizing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch scss/dot-style.scss:dist/dot-style.css",
-    "sass:minify": "sass --watch scss/dot-style.scss:dist/dot-style.min.css --style compressed\n"
+    "sass": "sass --watch scss/dot-style.scss:scss/dot-style.css",
+    "sass:minify": "sass --watch scss/dot-style.scss:scss/dot-style.min.css --style compressed\n"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "style": "dist/css/dot-style.css",
+  "css": "dist/css/dot-style.css"
 }

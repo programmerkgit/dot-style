@@ -1,6 +1,6 @@
 $property-name: line-height;
 $value: 0;
 @while ($value <= 100) {
-  @include dot-style($property-name, $value);
+  @include dot-style($property-name, #{$value}px);
   $value: $value + 2;
 }

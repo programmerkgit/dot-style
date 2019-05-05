@@ -1,7 +1,7 @@
 $property-name: font-size;
 $value: 0;
 @while ($value <= 50) {
-  @include dot-style($property-name, $value);
+  @include dot-style($property-name, #{$value}px);
   $value: $value + 2;
 }
 
