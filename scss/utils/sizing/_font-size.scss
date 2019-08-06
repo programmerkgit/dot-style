@@ -5,6 +5,10 @@ $value: 0;
   $value: $value + 2;
 }
 
+@while ($value <= 5) {
+  @include dot-style($property-name, #{$value}rem);
+  $value: $value + 0.5;
+}
 
 $values: (xx-small, x-small, small, large, x-large, xx-large, smaller, larger, medium);
 @include dot-styles($property-name, $values)

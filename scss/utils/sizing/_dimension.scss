@@ -1,22 +1,22 @@
 $i: 0;
-@while $i <= 1000 {
-  .width-#{$i}px {
-    width: #{$i}px !important;;
+@while $i <= 75 {
+  .width-#{$i * 2}r {
+    width: #{$i}rem !important;;
   }
-  .height-#{$i}px {
-    height: #{$i}px !important;
+  .height-#{$i * 2}r {
+    height: #{$i}rem !important;
   }
-  .max-width-#{$i}px {
-    max-width: #{$i}px !important;
+  .max-width-#{$i * 2}r {
+    max-width: #{$i}rem !important;
   }
-  .min-width-#{$i}px {
-    min-width: #{$i}px !important;
+  .min-width-#{$i * 2}r {
+    min-width: #{$i}rem !important;
   }
-  .max-height-#{$i}px {
-    max-height: #{$i}px !important;
+  .max-height-#{$i * 2}r {
+    max-height: #{$i}rem !important;
   }
-  .min-height-#{$i}px {
-    min-height: #{$i}px !important;
+  .min-height-#{$i * 2}r {
+    min-height: #{$i}rem !important;
   }
-  $i: $i + 5;
+  $i: $i + 0.5;
 }

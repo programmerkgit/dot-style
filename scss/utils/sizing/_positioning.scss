@@ -28,3 +28,34 @@ $i: 0;
 
   $i: $i + 5
 }
+
+$i: 0;
+@while $i <= 75 {
+  .y-#{$i * 2}r {
+    top: #{$i}px;
+    bottom: #{$i}px;
+  }
+
+  .x-#{$i * 2}r {
+    left: #{$i}px;
+    bottom: #{$i}px;
+  }
+
+  .t-#{$i * 2}r {
+    top: #{$i}px;
+  }
+
+  .r-#{$i * 2}r {
+    right: #{$i}px;
+  }
+
+  .l-#{$i * 2}r {
+    left: #{$i}px;
+  }
+
+  .b-#{$i * 2}r {
+    bottom: #{$i}px;
+  }
+
+  $i: $i + 0.5
+}

@@ -1,0 +1,4 @@
+$property-name: text-align;
+$values: (left, right, center, justify);
+
+@include dot-styles($property-name, $values)

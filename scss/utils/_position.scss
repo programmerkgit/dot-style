@@ -1,0 +1,4 @@
+$property-name: position;
+$values: (static, relative, absolute, fixed, sticky);
+
+@include dot-styles($property-name, $values)
