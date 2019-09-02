@@ -5,11 +5,11 @@
   margin-bottom: #{goldenRatio($font-size, $width)}px !important;
 }
 
-
-$i: 8;
-@while ($i <= 50) {
-  .gr-#{$i}px {
-    @include golden-ratio($i, 500)
-  }
-  $i: $i + 2;
-}
+// deprecated
+//$i: 8;
+//@while ($i <= 50) {
+//  .gr-#{$i}px {
+//    @include golden-ratio($i, 500)
+//  }
+//  $i: $i + 2;
+//}

@@ -1,0 +1,82 @@
+button {
+  /*グレイのやつを消す*/
+  /* Firefox */
+  -webkit-appearance: none;
+  /* Chrome*/
+  -moz-appearance: none;
+  /* フォーカスした時のデフォルトの青い枠を消す */
+  outline: 0 solid black;
+}
+
+button {
+  /*
+    background-color
+    outline
+    pointer
+    pointer-events: none
+  */
+  :hover {
+
+  }
+
+  :disabled {
+
+  }
+
+  /* click => :focus & :active there are a few situation only :active is true */
+  :focus {
+
+  }
+}
+
+div {
+  /* not work when clicked*/
+  &:active {
+  }
+}
+
+a {
+  /*
+    color
+    text-decoration-line: blink dashed dotted,
+    text-decoration-color,
+    text-decoration-style: overline line-through underline underneath,
+    text-decoration overline underline color dotted
+
+  */
+
+  /* unvisited*/
+  :link {
+  }
+
+  /* visited */
+  :visited {
+  }
+
+  /* When Clicked */
+  :active {
+  }
+
+  /* focus */
+  :focus {
+  }
+}
+
+input, form {
+  /* invalid is for input and form element */
+  :invalid {
+  }
+}
+
+.animation {
+  //animation-delay
+  //animation-direction
+  //animation-duration
+  //animation-fill-mode
+  //animation-iteration-count
+  //animation-name
+  //animation-play-state
+  //animation-timing-function
+  /* Transition is start state and end state, needs trigger css. */
+  /* @keyframes has multiple stages and repeats and reverse */
+}

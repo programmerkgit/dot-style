@@ -1,5 +1,5 @@
 $i: 0;
-@while $i <= 75 {
+@while $i <= 50 {
   .width-#{$i * 2}r {
     width: #{$i}rem !important;;
   }

@@ -1,60 +1,29 @@
 $i: 0;
-@while $i <= 1000 {
-  .y-#{$i}px {
-    top: #{$i}px;
-    bottom: #{$i}px;
-  }
-
-  .x-#{$i}px {
-    left: #{$i}px;
-    bottom: #{$i}px;
-  }
-
-  .t-#{$i}px {
-    top: #{$i}px;
-  }
-
-  .r-#{$i}px {
-    right: #{$i}px;
-  }
-
-  .l-#{$i}px {
-    left: #{$i}px;
-  }
-
-  .b-#{$i}px {
-    bottom: #{$i}px;
-  }
-
-  $i: $i + 5
-}
-
-$i: 0;
-@while $i <= 75 {
+@while $i <= 50 {
   .y-#{$i * 2}r {
-    top: #{$i}px;
-    bottom: #{$i}px;
+    top: #{$i}rem;
+    bottom: #{$i}rem;
   }
 
   .x-#{$i * 2}r {
-    left: #{$i}px;
-    bottom: #{$i}px;
+    left: #{$i}rem;
+    bottom: #{$i}rem;
   }
 
   .t-#{$i * 2}r {
-    top: #{$i}px;
+    top: #{$i}rem;
   }
 
   .r-#{$i * 2}r {
-    right: #{$i}px;
+    right: #{$i}rem;
   }
 
   .l-#{$i * 2}r {
-    left: #{$i}px;
+    left: #{$i}rem;
   }
 
   .b-#{$i * 2}r {
-    bottom: #{$i}px;
+    bottom: #{$i}rem;
   }
 
   $i: $i + 0.5

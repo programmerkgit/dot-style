@@ -1,0 +1,11 @@
+$i: 0;
+@while $i <= 50 {
+  .space-x-#{$i * 2}r > * + * {
+    margin-left: #{$i}rem !important;
+  }
+  .space-y-#{$i * 2}r > * + * {
+    margin-top: #{$i}rem !important;
+  }
+
+  $i: $i + 0.5
+}
